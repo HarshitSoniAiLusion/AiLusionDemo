@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "demo-ailusion",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon backend/index.js",
+    "start": "node backend/index.js",
+    "build": "npm install && npm install --prefix demo-ailusion && npm run build --prefix demo-ailusion"
+  },
+  "keywords": [],
+  "author": "Harshit",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cookie-parser": "^1.4.6",
+    "dns": "^0.2.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.3",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^10.0.0",
+    "validator": "^13.12.0"
+  }
+}
