@@ -27,7 +27,7 @@ export default function PrivateRoute(){
     },[])
     return(
        <>
-           {currUser && currUser.isAuthenticate ? <Outlet/> : <Navigate to={'/signup'}/>}
+           {currUser && currUser.isAuthenticate ? <Outlet/> : <Navigate to={'/logIn'}/>}
        </>
     )
 }
